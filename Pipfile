@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+jupyterlab = "*"
+rise = "*"
+jupyter = "*"
+google-cloud-bigquery = {extras = ["bqstorage", "pandas", "pyarrow"],version = "*"}
+pandas-gbq = "*"
+tqdm = "*"
+pandas = "*"
+google-cloud-bigquery-storage = "*"
+ibis-framework = {extras = ["bigquery"],version = "*"}
+
+[requires]
+python_version = "3.7"

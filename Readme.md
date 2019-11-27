@@ -1,1 +1,4 @@
-## Readme
+## Quickstart
+
+* `pipenv install`
+* `jupyter-notebook`
